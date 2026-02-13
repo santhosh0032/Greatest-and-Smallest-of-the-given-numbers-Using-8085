@@ -78,7 +78,7 @@ HLT
 
 <img width="1897" height="994" alt="image" src="https://github.com/user-attachments/assets/00c16893-4035-41c8-b6c1-0e054241a149" />
 
-<img width="1891" height="985" alt="image" src="https://github.com/user-attachments/assets/1b5521c8-f820-44b8-9b95-b31f9fb5cb6f" />
+<img width="1874" height="1047" alt="Screenshot 2025-09-12 160601" src="https://github.com/user-attachments/assets/5facf9a1-25e6-4bd9-aab9-cdcae26889c0" />
 
 
 
