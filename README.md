@@ -20,8 +20,30 @@ To write 8085 microprocessor programs to find the greatest and smallest number f
 6.	Store the greatest number in 4300H.
 
 ## Program:
+```
+LDA 4200H
+MOV C,A
+LXI H, 4201H
+MOV A,M
+INX H
+DCR C
+LOOP:CMP M
+JNC NEXT
+MOV A, M
+NEXT: INX H
+DCR C
+JNZ LOOP
+STA 4300H
+HLT
+```
+
 
 ## Output:
+<img width="1905" height="1021" alt="image" src="https://github.com/user-attachments/assets/6c7b1d6c-af91-449a-b9a7-599763ccbbc1" />
+<img width="1895" height="995" alt="image" src="https://github.com/user-attachments/assets/7960a195-647c-453b-b0d0-0db076fd3638" />
+
+
+
 
 ## Finding the Smallest Number
 
@@ -35,8 +57,34 @@ To write 8085 microprocessor programs to find the greatest and smallest number f
 6.	Store the smallest number in 4301H.
 
 ## Program:
+```
+LDA 4200H
+MOV C,A
+LXI H, 4201H
+MOV A,M
+INX H
+DCR C
+LOOP:CMP M
+JC NEXT
+MOV A, M
+NEXT: INX H
+DCR C
+JNZ LOOP
+STA 4301H
+HLT
+```
 
 ## Output:
+
+<img width="1897" height="994" alt="image" src="https://github.com/user-attachments/assets/00c16893-4035-41c8-b6c1-0e054241a149" />
+
+<img width="1891" height="985" alt="image" src="https://github.com/user-attachments/assets/1b5521c8-f820-44b8-9b95-b31f9fb5cb6f" />
+
+
+
+
+
+
 
 
 ## Result:
